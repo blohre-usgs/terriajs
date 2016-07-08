@@ -1,0 +1,26 @@
+<div class="sbData">
+    <div id="sbShort">
+        <div class="sbTitle" data-bind="text: title"></div>
+        <div data-bind="text: shortDescription"></div>
+        <div class="descriptionToggle">
+            <a href="#" data-bind="click: toggleDescription" data-open="sbLong">more...</a>
+        </div>
+    </div>
+    <div id="sbLong" style="display:none;">
+        <div class="sbTitle" data-bind="text: title"></div>
+        <div data-bind="text: description"></div>
+        <div class="sbItem">
+            <span class="sbItemTitle">Web Link:</span>
+            <ul data-bind="foreach: links">
+                <li><a data-bind="text: title, attr: { href: href}" target="_blank"></a></li>
+            </ul>
+        </div>
+        <div class="sbItem">
+            <span class="sbItemTitle">Publication Date: </span>
+            <span data-bind="text: publicationDate"></span>
+        </div>
+        <div class="descriptionToggle">
+            <a href="#" data-bind="click: toggleDescription" data-open="sbShort">less...</a>
+        </div>
+    </div>
+</div>
