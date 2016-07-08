@@ -62,3 +62,31 @@
         display: none;
     }
 }
+
+#beta-banner {
+    position: absolute;
+    z-index: 9999;
+    color: red;
+    top: 8px;
+    left: -75px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: yellow;
+    padding: 0 70px 0 30px;
+    text-align: center;
+    min-width: 170px;
+    box-shadow: 0 2px 4px black;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    filter: alpha(opacity=80);
+    -moz-opacity: .80;
+    opacity: .80;
+    cursor: help;
+}
+
+#beta-banner:hover {
+    opacity: 1;
+}
