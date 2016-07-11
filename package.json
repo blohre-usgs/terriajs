@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/TerriaJS/terriajs"
+    "url": "https://my.usgs.gov/bitbucket/projects/BCB/repos/terriajs/browse"
   },
   "dependencies": {
     "babel-core": "^6.7.4",
