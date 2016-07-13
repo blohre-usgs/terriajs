@@ -35,7 +35,7 @@
     "sanitize-caja": "^0.1.3",
     "simple-statistics": "^2.0.0",
     "superagent": "^2.0.0",
-    "terriajs-cesium": "1.20.0",
+    "terriajs-cesium": "git+https://my.usgs.gov/bitbucket/scm/bcb/terriajs-cesium.git#f0ac263c1f7a6c546a3bfedce80c6c27ea2a29ca",
     "togeojson": "^0.13.0",
     "urijs": "^1.17.1",
     "urthecast": "^1.0.0",
